@@ -1,0 +1,340 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.wrap{
+	margin: 0;
+}
+/*#wpcontent{
+	padding: 0 !important;
+}
+#wpbody-content{
+	padding: 0;
+}*/
+.wrap{
+	box-sizing: border-box;
+	height: 100%;
+	overflow: auto;
+	/*background: #f7f7f7;*/
+	width: 100%;
+}
+.partials.signup .content .row{
+	height: 100%;
+}
+.partials.signup .content{
+    font-family: "Roboto", sans-serif !important;
+	margin-bottom: 0 !important;
+	position: relative;
+	width: 800px;
+	height: 460px;
+	box-sizing: border-box;
+	background: white;
+	display: block;
+	margin: 4% auto;
+}
+.partials .content form{
+	padding: 16px 0;
+}
+.partials .content form input{
+	font-size: 13px;
+}
+.partials .content form label{
+	font-size: 14px;
+}
+.partials.signup .content h2{
+	color: #0D47A1;
+	margin: 0px;
+	font-size: 24px;
+	font-weight: 300;
+}
+.partials .content p{
+	font-size: 13px;
+	color: #424242;
+}
+.partials.signup .form-row{
+	margin: 0;
+}
+.partials.signup .form-row.terms{
+	margin: 8px 0;
+}
+.partials .form-row a{
+	color: #2196F3;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+.partials .content form .btn{
+	margin-top: 24px;
+	width: 100%;
+	color: white;
+}
+.partials.signup .content .slide{
+	color: white;
+	height: 100%;
+}
+.partials.signup .content .slide h2{
+	color: white;
+	font-weight: 300;
+	text-align: center;
+}
+.partials.signup .content .slide small{
+	color: white;
+	text-align: center;
+	font-size: 14px;
+	width: 70%;
+	display: block;
+	margin: 16px auto;
+	font-weight: 400;
+}
+.partials.signup .content .slide h3{
+	font-weight: 300;
+	color: white;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 20px;
+}
+.partials.signup .content .slide h3 b{
+	font-weight: 400;
+}
+
+.partials.signup .content .slide p{
+	text-align: justify;
+    text-justify: inter-word;
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+	font-style: 13px;
+}
+.partials.signup .content .slide button{
+	background: white;
+	color: #212121;
+	display: block;
+	margin: 16px auto;
+}
+.partials.signin .content{
+    font-family: "Roboto", sans-serif !important;
+	margin-bottom: 0 !important;
+	width: 400px;
+	background: white;
+	display: block;
+	margin: 4% auto;
+}
+.partials.signin .content form{
+	margin-top: 40px;
+}
+
+.partials.signin .content .avatar-area{
+	background: url(../img/signin.png) no-repeat center;
+	height: 94px;
+	position: relative;	
+	padding-top: 32px;
+}
+.partials.signin .content .avatar-area .avatar{
+	border: solid white 6px;
+	border-radius: 50%;
+	box-sizing: border-box;
+	margin: 0 auto;
+	display: block;
+}
+
+.partials.signin .content  .opt{
+	margin: 24px 0;
+}
+.partials.signin .content  .opt .col{
+	padding: 0;
+}
+.partials.signin .content  .opt a.right{
+    text-align: right;
+}
+.partials.tutorial{
+	margin-top: 5%;
+}
+.partials.tutorial .content{
+    font-family: "Roboto", sans-serif !important;
+	display: block;
+	margin: 0 auto;
+	height: 800px;
+	width: 900px;
+	background: white;
+}
+.partials.tutorial .content h3{
+	font-size: 24px;
+	width: 70%;
+}
+.partials.tutorial .content p{
+	font-size: 16px;
+	width: 90%;
+}
+.partials.tutorial .content h3, .partials.tutorial .content p{
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+.partials.tutorial .content .steps{
+	position: relative;
+	background: url(../img/home-concept.png) no-repeat center;
+	height: 30%;
+	display: block;
+}
+.partials.tutorial .content .steps img{
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+}
+.partials.tutorial .content .steps .caption{
+	position: absolute;
+	bottom: -32px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 16px;
+}
+
+.partials.tutorial .content .steps .step1{
+	position: absolute;
+	padding: 2px;
+	left: 10%;
+	top: 15%;
+	border-radius: 50%;
+	height: 160px;
+	background: white;
+	width: 160px;
+	border: 2px dashed #bdbdbd;
+}
+.partials.tutorial .content .steps .step2{
+	position: absolute;
+	padding: 2px;
+	left: 38%;
+	top: 18%;
+	border-radius: 50%;
+	height: 160px;
+	background: white;
+	width: 160px;
+	border: 2px dashed #bdbdbd;
+}
+.partials.tutorial .content .steps .step3{
+	position: absolute;
+	padding: 2px;
+	left: 65%;
+	top: 5%;
+	border-radius: 50%;
+	height: 220px;
+	background: white;
+	width: 220px;
+	border: 2px dashed #bdbdbd;
+}
+.partials.tutorial .content .steps .step4{
+	position: absolute;
+	padding: 2px;
+	left: 10%;
+	top: 30%;
+	border-radius: 50%;
+	height: 100px;
+	background: white;
+	width: 100px;
+	border: 2px dashed #bdbdbd;
+}
+/*COLORS*/
+.blue.lighten{
+	background: #B3E5FC;
+}
+.red.lighten{
+	background: #FFCDD2;
+}
+.purple.lighten{
+	background: #9C27B0;
+}
+.green.lighten{
+	background: #DCEDC8;
+}
+.blue{
+	background: #2196F3;
+}
+.yellow{
+	background: #FDD835;
+}
+.green{
+	background: #4CAF50;
+}
+.red{
+	background: #F44336;
+}
+footer{
+	width: 30%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 16px;
+}
+footer a{
+	color: #2196F3;
+	text-decoration: none;
+}
+footer a, footer p{
+	font-size: 14px;
+	text-align: center;
+	display: block;
+}
+footer .opt{
+	text-align: center;
+}
+footer .opt a{
+	display: inline-block;
+}
+footer .opt a+a:before{
+	content: "|";
+	margin-right: 4px;
+	display: inline-block;
+}
+
+/*BUTTON COLORS*/
+.md-button.disabled[disabled]{
+	background-color: rgba(0,0,0,0.12) !important;
+	color: rgba(0,0,0,0.61) !important;
+}
+.md-button.disabled[disabled]:hover{
+	background-color: rgba(0,0,0,0.12) !important;
+}
+.md-button{
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 16px;
+	padding-right: 16px;
+
+}
+.md-button.blue{
+	color: white;
+	background-color: #2196F3 !important;
+}
+.md-button.blue:hover{
+	background-color: #1976D2 !important;
+}
+.md-button.light-green{
+	color: white;
+	background-color: #1DE9B6;
+}
+.md-button.light-green:hover{
+	background-color: #00BFA5 !important;
+}
+.md-button.yellow{
+	color: white;
+	background-color: #FDD835;
+}
+.md-button.yellow:hover{
+	background-color: #FBC02D !important;
+}
+.md-button.green{
+	color: white;
+	background-color: #4CAF50;
+}
+.md-button.green:hover{
+	background-color: #388E3C !important;
+}
+.md-button.red{
+	color: white;
+	background-color: #F44336;
+}
+.md-button.red:hover{
+	background-color: #D32F2F !important;
+}
