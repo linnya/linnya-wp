@@ -29,7 +29,7 @@
 		</div>
 		<footer>
 			<div class="opt">
-				<a class="col s6" href="admin.php?page=linnya-chat-signin">Logout</a>
+				<a class="col s6" href="#" id="logout">Logout</a>
 				<a class="col s6" href="admin.php?page=linnya-chat-signin">Do you need Help?</a>
 			</div>
 			<div class="copy">

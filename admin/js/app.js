@@ -48,6 +48,9 @@
 			Materialize.toast(data.responseJSON.result, 2000);
 		}
 	}
+  $("#logout").live("click", function() {
+        logout();
+  });
 
 	$("#signin").live("click", function() {
     	var data = {email: $("#email").val(), password: $("#password").val()};
@@ -62,7 +65,7 @@
 
     function auth(data) {
         firebase.auth().signInWithEmailAndPassword(data.email, data.password).catch(function(error) {
-          if(error) Materialize.toast("Authentication failed: "+error.message);
+          if(error) Materialize.toast("Authentication failed: "+error.message, 2000);
         });
         var flag;
 
@@ -82,6 +85,19 @@
           success: function (res) {
               window.location = "admin.php?page=linnya-chat-tutorial";
               console.log(res);
+          },
+          error: function (error) {
+              console.log(error);
+          }
+        });
+    }
+    function logout() {
+      Materialize.toast("We are redirecting!", 2000);
+       $.post({
+          url:'admin.php?page=linnya-chat-database',
+          data: { action : 'remove'},
+          success: function (res) {
+              window.location = "admin.php?page=linnya-chat-signin";
           },
           error: function (error) {
               console.log(error);
