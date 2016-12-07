@@ -8,18 +8,19 @@
 					<br>
 					<br>
 					<br>
-					<h2>Prefe a more <br>personal demo</h2>
-					<small>Sed do eiusmodtempor incididunt ut labore et dolore magna aliqua consequat.</small>
-					<h3>Lorem <b>ipsum</b> dolor sit amet, consectetur <b>adipisicing</b> elit,sed do eiusmod
-					tempor incididunt ut  <b>labore</b> et dolore magna aliqua.</h3>
+					<img src="../wp-content/plugins/linnya-wp/admin/img/slide1.png">
+					<h2>Trust is the<br><b>key to success</b></h2>
+					<small>A mobile world needs mobile<br>solutions, right?</small>
+					<h3>It's time to go <b>further</b> and build stronger, smarter 
+						and more effective relationships with your customers.</h3>
 					<br>
-					<button class="waves-effect waves-light btn">Read More</button>
+					<button class="waves-effect waves-light btn">See the Features</button>
 				</div>
 
 				<form id="signup" class="col s6">
 					<div class="col s12">
-						<h2>Signup</h2>
-						<p>Sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<h2>Authentication</h2>
+						<p>Create an account to continue with the installation.</p>
 					</div>
 					<br>
 					<div class="form-row row"> 
@@ -63,7 +64,8 @@
 		        			<input type="checkbox" id="agree" name="remember" required/>
 			        		<label for="agree"></label>
 	        			</div>
-					 	<p class="col s11" style="margin: 0;">I agree to Linnya Network <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.</p>
+					 	<p class="col s11" style="margin: 0;">I agree to Linnya Network <a href="#">Terms of Service</a> 
+					 		and <a href="#">Privacy Policy</a>.</p>
 					</div>
 					<br>
 					<br>
@@ -76,7 +78,7 @@
 	<footer>
 		<a class="opt ng-scope" href="admin.php?page=linnya-chat-signin">Already have an account? Sign in now!</a>
 		<div class="copy">
-	    	<p class="grey-text text-darken-2"> <small>©2015 Linnya Technology, Inc.  | All right reserved</small></p>    
+	    	<p class="grey-text text-darken-2"> <small>©2017 Linnya Technology, Inc.  | All rights reserveds</small></p>    
 	  	</div>
 	</footer>
 </div>

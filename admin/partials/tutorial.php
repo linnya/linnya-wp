@@ -30,7 +30,7 @@
 		<footer>
 			<div class="opt">
 				<a class="col s6" href="admin.php?page=linnya-chat-signin">Logout</a>
-				<a class="col s6" href="admin.php?page=linnya-chat-signin">Need Help?</a>
+				<a class="col s6" href="admin.php?page=linnya-chat-signin">Do you need Help?</a>
 			</div>
 			<div class="copy">
 		    	<p class="grey-text text-darken-2"> <small>©2017 Linnya Technology, Inc.  | All right reserved</small></p>    

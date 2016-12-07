@@ -26,14 +26,14 @@
 			        	<!-- <input type="checkbox" id="test5" name="remember"/>
 			        	<label for="test5">Stay signed in</label> -->
 			        </div>
-			        <a class="col s4 right help" href="#/help">Need help?</a>
+			        <a class="col s4 right help" href="#/help">Do you need help?</a>
 				</div>
 			</form>
 		</div>
 		<footer>
 			<a class="opt ng-scope" href="admin.php?page=linnya-chat-signup">Create an account</a>
 			<div class="copy">
-		    	<p class="grey-text text-darken-2"> <small>©2015 Linnya Technology, Inc.  | All right reserved</small></p>    
+		    	<p class="grey-text text-darken-2"> <small>©2017 Linnya Technology, Inc.  | All right reserved</small></p>    
 		  	</div>
 		</footer>
 	</div>

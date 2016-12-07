@@ -13,9 +13,9 @@
  * @package           Plugin_Name
  *
  * @wordpress-plugin
- * Plugin Name:       WordPress Plugin Boilerplate
+ * Plugin Name:       Linnya Network Live Chat
  * Plugin URI:        http://example.com/linnya-chat-uri/
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Description:       Made with the delightful resources of Google's Material Design, this is the best Live Chat App ever made for the mobile world. Get started in just 4 minutes.                            
  * Version:           1.0.0
  * Author:            Your Name or Your Company
  * Author URI:        http://example.com/
