@@ -116,7 +116,7 @@ class linnyaChatWidget extends WP_Widget {
   public function __construct() {
       $widget_ops = array(
       		'classname' => 'linnyaChatWidget', 
-      		'description' => 'Linnya Chat widget BLA BLA BLA BLA');
+      		'description' => 'Linnya Network Live Chat Widget');
       $this->WP_Widget('linnyaChatWidget', 'Linnya Chat Widget', $widget_ops);
   }
  

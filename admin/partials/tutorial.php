@@ -4,27 +4,45 @@
 		<div class="content z-depth-1">
 			<br>
 			<br>
+			<h6><img src="../wp-content/plugins/linnya-wp/admin/img/polygon-logo--live-chat-.png" width="50%"></h6>
 			<br>
-			<h3 class="grey-text text-darken-2">Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
 			<br>
-			<p class="grey-text text-darken-1">Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui.</p>
+			<div class="divider"></div>
 			<br>
+			<br>
+			<h3 class="grey-text text-darken-2">For nothing but stunning performances</h3>
+			<small><b>_____________________</b></small>
+			<br>
+			<br>
+			<p class="grey-text text-darken-1">Go online and start engaging more people using an app 
+				made by attendance<br>and communication experts who 
+				really understand your daily matters.</p>
+			<p class="grey-text text-darken-1"><b>It's easy. Check it out:</b></p>
 			<br>
 			<div class="steps">
 				<div class="step1">
-					<img src="http://preview.oklerthemes.com/porto/5.0.0/img/landing-concept-item-1.png">
-					<div class="caption light-blue-text">Add Linnya Widget</div>
+					<img src="../wp-content/plugins/linnya-wp/admin/img/widget-print.jpg">
+					<div class="caption light-blue-text">Add the widget</div>
 				</div>
 				<div class="step2">
-					<img src="http://preview.oklerthemes.com/porto/5.0.0/img/landing-concept-item-2.png">
-					<div class="caption light-blue-text">Short code</div>
+					<img src="../wp-content/plugins/linnya-wp/admin/img/play-print.jpg">
+					<div class="caption light-blue-text">Download the App</div>
 				</div>
 				<div class="step3">
-					<img src="http://preview.oklerthemes.com/porto/5.0.0/img/landing-concept-item-4.png">
-					<div class="caption light-blue-text">Like magic!</div>
+					<img src="../wp-content/plugins/linnya-wp/admin/img/chat-print.jpg">
+					<div class="caption light-blue-text">Talk to Customers!</div>
 				</div>
+			</div>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class"container row">
+				<div class="divider"></div>
+				<br>
+				<br>
+				<br>
 			</div>
 		</div>
 		<footer>

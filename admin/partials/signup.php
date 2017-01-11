@@ -4,25 +4,33 @@
 	
 	<div class="content z-depth-1">
 			<div class="row">
-				<div class="slide blue col s6">
+				<div class="slide grey lighten-5 col s6">
+					<br>
+					<small><img src="../wp-content/plugins/linnya-wp/admin/img/polygon-logo--.png" width="100%"></small>
+					<h2>
+						<i class="material-icons">grade</i><i class="material-icons">grade</i>
+						<i class="material-icons">grade</i><i class="material-icons">grade</i>
+						
+						<!-- <i class="material-icons">grade</i> -->
+					</h2>
 					<br>
 					<br>
 					<br>
-					<img src="../wp-content/plugins/linnya-wp/admin/img/slide1.png">
-					<h2>Trust is the<br><b>key to success</b></h2>
-					<small>A mobile world needs mobile<br>solutions, right?</small>
-					<h3>It's time to go <b>further</b> and build stronger, smarter 
-						and more effective relationships with your customers.</h3>
+					<h2>Enjoy the Plug-in!</h2>
 					<br>
-					<button class="waves-effect waves-light btn">See the Features</button>
+					<br>
+					<h3>Talk to visitors in real-time and<br>build more effective relationships<br>with your customers.</h3>
+					<br>
+					<br>
+					<br>
+					<br>
+					<button class="waves-effect waves-light teal btn">go to Features</button>
 				</div>
-
-				<form id="signup" class="col s6">
+				<form id="signup" class="col s6 white">
 					<div class="col s12">
-						<h2>Authentication</h2>
-						<p>Create an account to continue with the installation.</p>
+						<h5>Create Account</h5>
+						<p>We've just entered into a public test phase. Enjoy it for Free!</p>
 					</div>
-					<br>
 					<div class="form-row row"> 
 						<div class="input-field col s6">
 							<label for="firstName">First Name</label>
@@ -64,11 +72,9 @@
 		        			<input type="checkbox" id="agree" name="remember" required/>
 			        		<label for="agree"></label>
 	        			</div>
-					 	<p class="col s11" style="margin: 0;">I agree to Linnya Network <a href="#">Terms of Service</a> 
+					 	<p class="col s11" style="margin: 0;">I agree to the <a href="#">Terms of Service</a> 
 					 		and <a href="#">Privacy Policy</a>.</p>
 					</div>
-					<br>
-					<br>
 					<div class="form-row row">
 						<div class="col s12"><a id="create" class="blue waves-effect waves-light btn">Register</a></div>
 					</div>
@@ -78,8 +84,9 @@
 	<footer>
 		<a class="opt ng-scope" href="admin.php?page=linnya-chat-signin">Already have an account? Sign in now!</a>
 		<div class="copy">
-	    	<p class="grey-text text-darken-2"> <small>©2017 Linnya Technology, Inc.  | All rights reserveds</small></p>    
+	    	<p class="grey-text text-darken-2"> <small>©2015-2017 Linnya Technology, Inc.  | All rights reserveds</small></p>    
 	  	</div>
+	  	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	</footer>
 </div>
 

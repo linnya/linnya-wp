@@ -33,7 +33,7 @@
 		<footer>
 			<a class="opt ng-scope" href="admin.php?page=linnya-chat-signup">Create an account</a>
 			<div class="copy">
-		    	<p class="grey-text text-darken-2"> <small>©2017 Linnya Technology, Inc.  | All right reserved</small></p>    
+		    	<p class="grey-text text-darken-2"> <small>©©2015-2017 Linnya Technology, Inc.  | All right reserved</small></p>    
 		  	</div>
 		</footer>
 	</div>

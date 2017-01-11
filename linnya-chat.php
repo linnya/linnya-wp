@@ -15,10 +15,10 @@
  * @wordpress-plugin
  * Plugin Name:       Linnya Network Live Chat
  * Plugin URI:        http://example.com/linnya-chat-uri/
- * Description:       Made with the delightful resources of Google's Material Design, this is the best Live Chat App ever made for the mobile world. Get started in just 4 minutes.                            
- * Version:           1.0.0
- * Author:            Your Name or Your Company
- * Author URI:        http://example.com/
+ * Description:       Get started in less than 5 minutes! Linnya Network Live Chat allows you to talk to visitors in real-time from your smartphone, wherever you are! Carefully made on Google's Material Design guidelines and covered by Firebase's technologies. Highly recommended for E-commerces, Websites, and Blogs!                            
+ * Version:           0.1.0
+ * Author:            Linnya Technology, INC.
+ * Author URI:        http://linnya.com/
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       linnya-chat
