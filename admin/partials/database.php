@@ -13,5 +13,12 @@
 		echo $existing;
 	}
 
+	if ($_POST["action"] == "remove") remove();
+
+	function remove(){
+		delete_option("linnya-id");
+		echo 'logout';
+	}
+
 
  ?>

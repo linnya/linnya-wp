@@ -27,7 +27,7 @@
 			<div class="content">
 				<a href="#" class="logo">
 					<br>			
-					<img src="wp-content/plugins/linnya-chat/public/img/file.png" width="24px;">
+					<img src="wp-content/plugins/linnya-wp/public/img/file.png" width="24px;">
 					<h4>
 						<small>Powered by</small>
 						Linnya Network
@@ -42,9 +42,9 @@
 
 		<div class="line">
 			<div class="opt float-right">
-				<img src="wp-content/plugins/linnya-chat/public/svg/window-minimize.svg" ng-click="control = 'mini-offline'; sended = false">
-				<!-- <img src="wp-content/plugins/linnya-chat/public/svg/arrow-top-right.svg"> -->
-				<img src="wp-content/plugins/linnya-chat/public/svg/close.svg" ng-click="control = 'foo'">
+				<img src="wp-content/plugins/linnya-wp/public/svg/window-minimize.svg" ng-click="control = 'mini-offline'; sended = false">
+				<!-- <img src="wp-content/plugins/linnya-wp/public/svg/arrow-top-right.svg"> -->
+				<img src="wp-content/plugins/linnya-wp/public/svg/close.svg" ng-click="control = 'foo'">
 			</div>
 		</div>
 		<div ng-hide="sended">
@@ -65,7 +65,7 @@
 		</div>
 		<div ng-show="sended" class="sended">
 			<h3>Your message was sent</h3>
-			<img width="56px" src="wp-content/plugins/linnya-chat/public/svg/check.svg">
+			<img width="56px" src="wp-content/plugins/linnya-wp/public/svg/check.svg">
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua</p>
 			<br>
@@ -84,7 +84,7 @@
 			<div class="content">
 				<a href="#" class="logo">
 					<br>			
-					<img src="wp-content/plugins/linnya-chat/public/img/file.png" width="24px;">
+					<img src="wp-content/plugins/linnya-wp/public/img/file.png" width="24px;">
 					<h4>
 						<small>Powered by</small>
 						Linnya Network
@@ -99,9 +99,9 @@
 		<div class="header">
 			<div class="line">
 				<div class="opt float-right">
-					<img src="wp-content/plugins/linnya-chat/public/svg/white/window-minimize.svg" ng-click="vm.minimize()">
-					<!-- <img src="wp-content/plugins/linnya-chat/public/svg/white/arrow-top-right.svg"> -->
-					<img src="wp-content/plugins/linnya-chat/public/svg/white/close.svg" ng-click="control = 'foo'">
+					<img src="wp-content/plugins/linnya-wp/public/svg/white/window-minimize.svg" ng-click="vm.minimize()">
+					<!-- <img src="wp-content/plugins/linnya-wp/public/svg/white/arrow-top-right.svg"> -->
+					<img src="wp-content/plugins/linnya-wp/public/svg/white/close.svg" ng-click="control = 'foo'">
 				</div>
 			</div>
 			<div class="content slider slide1" ng-hide="agent">
@@ -133,7 +133,7 @@
 						<div class="file-icon float-left" ng-bind="vm.getExtension(msg.content)"></div>
 						<p ng-bind="msg.content"></p>
 
-						<img class="float-right download-icon" src="wp-content/plugins/linnya-chat/public/svg/cloud-download.svg" width="10%">
+						<img class="float-right download-icon" src="wp-content/plugins/linnya-wp/public/svg/cloud-download.svg" width="10%">
 					</a>
 					<small>{{vm.timeCoverter(msg.time)}} 
 						<svg ng-show="msg.status === 'read'" viewBox="0 0 24 24">
@@ -164,7 +164,7 @@
 						<div class="actions">
 							<div class="float-right">
 								<button ng-click="msg.status = 'read'; msgs.$save(msg)">
-									<img src="wp-content/plugins/linnya-chat/public/svg/white/close.svg">
+									<img src="wp-content/plugins/linnya-wp/public/svg/white/close.svg">
 								</button>
 								<button ng-click="vm.updateGuestProfile(vm.form, msg);">
 									<svg style="width:24px;height:24px" viewBox="0 0 24 24">
@@ -205,7 +205,7 @@
 					<div class="fab">+</div>
 				</div>
 				<div class="fab" ng-click="emojiArea = false; uploadArea = false" ng-show="emojiArea || uploadArea">
-					<img src="wp-content/plugins/linnya-chat/public/svg/chevron-down-white.svg">
+					<img src="wp-content/plugins/linnya-wp/public/svg/chevron-down-white.svg">
 				</div>
 				<div class="input" id="input-compose" callback-fn="sendMsg(vm.write)" contenteditable="true" ng-model="vm.write.content"></div>
 <!-- 				<input class="input" autocomplete="off" placeholder="Message" id="input-compose" flex ng-model="vm.write.content"> -->
@@ -232,7 +232,7 @@
 	</div>
 
 	<div class="invite" ng-show="control == 'invite'">
-		<img class="close" src="wp-content/plugins/linnya-chat/public/svg/close.svg" width="16px" height="16px">
+		<img class="close" src="wp-content/plugins/linnya-wp/public/svg/close.svg" width="16px" height="16px">
 		<div class="head" ng-click="vm.inviteAcc()"></div>
 		<div class="avatar" ng-click="vm.inviteAcc()">
 			<img ng-src="{{agent.avatarUrl}}" width="100%" height="100%">
@@ -247,9 +247,9 @@
 		<div class="header">
 			<div class="line">
 				<div class="opt float-right">
-					<img src="wp-content/plugins/linnya-chat/public/svg/white/window-maximize.svg" ng-click="vm.maxmize()">
-					<!-- <img src="wp-content/plugins/linnya-chat/public/svg/white/arrow-top-right.svg"> -->
-					<img src="wp-content/plugins/linnya-chat/public/svg/white/close.svg">
+					<img src="wp-content/plugins/linnya-wp/public/svg/white/window-maximize.svg" ng-click="vm.maxmize()">
+					<!-- <img src="wp-content/plugins/linnya-wp/public/svg/white/arrow-top-right.svg"> -->
+					<img src="wp-content/plugins/linnya-wp/public/svg/white/close.svg">
 				</div>
 			</div>
 			<div class="content" ng-show="agent">
