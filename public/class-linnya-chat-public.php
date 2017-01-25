@@ -66,7 +66,7 @@ class Plugin_Name_Public {
 
 	public function enqueue_scripts() {
 
-		wp_register_script('angular', plugins_url('js/angularDebug.js', __FILE__ ));
+		wp_register_script('angular', plugins_url('js/angular.min.js', __FILE__ ));
 		wp_enqueue_script('angular');
 
 		wp_register_script('firebase', plugins_url('../admin/js/firebase.js', __FILE__ ));
@@ -75,11 +75,20 @@ class Plugin_Name_Public {
 		wp_register_script('sanitize', plugins_url('js/angular-sanitize.min.js', __FILE__ ));
 		wp_enqueue_script('sanitize');
 
-		wp_register_script('app', plugins_url('js/linnya-app.js', __FILE__ ));
-		wp_enqueue_script('app');
+		wp_register_script('init', plugins_url('js/init.js', __FILE__ ));
+		wp_enqueue_script('init');
 
-		wp_register_script('modules', plugins_url('js/compressed.js', __FILE__ ));
+		wp_register_script('modules', plugins_url('js/modules.min.js', __FILE__ ));
 		wp_enqueue_script('modules');
+
+		wp_register_script('angularFire', plugins_url('js/angularFire.min.js', __FILE__ ));
+		wp_enqueue_script('angularFire');
+
+		wp_register_script('directives', plugins_url('js/directives.js', __FILE__ ));
+		wp_enqueue_script('directives');
+
+		wp_register_script('controllers', plugins_url('js/controllers.js', __FILE__ ));
+		wp_enqueue_script('controllers');
 
 	}
 

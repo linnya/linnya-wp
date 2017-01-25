@@ -1,7 +1,7 @@
 (function() {
     'use strict';
     var $ = jQuery;
-    var url = "http://localhost:3000";
+    var url = "http://account.linnya.com";
 	
     var config = {
 		apiKey: "AIzaSyBWRQNO4iBKBxBCJySq4BWd15weM_pU9ks",

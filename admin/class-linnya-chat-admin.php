@@ -117,7 +117,7 @@ class linnyaChatWidget extends WP_Widget {
       $widget_ops = array(
       		'classname' => 'linnyaChatWidget', 
       		'description' => 'Linnya Network Live Chat Widget');
-      $this->WP_Widget('linnyaChatWidget', 'Linnya Chat Widget', $widget_ops);
+      parent::__construct('linnyaChatWidget', 'Linnya Chat Widget', $widget_ops);
   }
  
   function widget($args, $instance) {
@@ -125,9 +125,8 @@ class linnyaChatWidget extends WP_Widget {
     
     // Before widget code, if any
     echo "<script type='text/javascript'>";
-    echo "var div = document.createElement('linnya'); \n";
-    echo "div.setAttribute('accid', '".$accid."'); \n";
-  	echo "document.body.appendChild(div); \n";
+    echo "var config = {accid: '".$accid."', pluginDir: '".plugin_dir_url( __FILE__ )."'}; \n";
+  	echo "linnya.init(config); \n";
     echo '</script>';
   }
 

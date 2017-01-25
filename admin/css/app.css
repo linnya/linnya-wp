@@ -299,6 +299,7 @@ footer .opt{
 	text-align: center;
 }
 footer .opt a{
+	cursor: pointer;
 	display: inline-block;
 }
 footer .opt a+a:before{

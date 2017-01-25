@@ -26,25 +26,27 @@
 	z-index: 2;
 	color: #546E7A;
 	position: absolute;
-	top: 40%;
+	top: 35%;
 	left: 15%;
 	width: 70%;
 	box-shadow: 0 1px 5px 0 rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.12);
 	border-radius: 2px;
 	background: white;
+	text-align: center;
 }
 .about .content .logo{
 	cursor: pointer;
 	position: initial;
-	width: 44%;
+	width: 80%;
 	display: block;
 	margin: 0 auto;
 }
 .offline .about .content{
-	top: 30%;
+	top: 20%;
 }
 
 .offline .logo{
+	cursor: pointer;
 	z-index: 2;
 	position: absolute;
 	right: 18px;
@@ -58,6 +60,7 @@
 }
 .chat .logo{
 	z-index: 2;
+	cursor: pointer;
 	position: absolute;
 	right: 16px;
 	bottom: 4px;
@@ -68,6 +71,7 @@
 }
 
 .logo h4{
+	font-size: 12px;
 	line-height: normal;
 	margin: 0;
 	display: inline-block;
@@ -92,8 +96,18 @@
 .linnya-chat{
 	position: fixed; 
 	bottom: 0; 
-	right: 0; 
+	right: 0;
+	z-index: 999;
+	letter-spacing: normal !important;
 	width: 360px; 
+}
+.linnya-chat p{
+	font-family: 'Roboto', sans-serif !important;
+}
+.linnya-chat h5{
+	letter-spacing:normal;
+	text-transform: none;
+	padding: 0;
 	font-family: 'Roboto', sans-serif !important;
 }
 .mini{
@@ -128,6 +142,9 @@
 	display: inline-block;
 }
 .mini h5{
+	padding: 0;
+	letter-spacing: normal;
+	text-transform: none;
 	display: block;
 	line-height: normal;
 	font-size: 14px;
@@ -215,6 +232,8 @@
 }
 .offline form button{
 	font-size: 13px;
+	line-height: normal;
+	font-weight: normal;
 	height: auto;
 	padding: 8px 16px;
 }
@@ -231,7 +250,7 @@
 }
 
 .chat{
-	background: url('../img/patterns/mp-02.png');
+	background: url('http://client.linnya.com/patterns/mp-02.png');
 	/*background-color: #ECEFF1;*/
 	height: 100%;
 	-webkit-animation: vertical 220ms cubic-bezier(0.4, 0.0, 0.2, 1);
@@ -255,7 +274,7 @@
     opacity: 0.6;
 	top: 0;
 	position: absolute;
-	background-image: url(../img/slide1.png);
+	background-image: url(slide1.png);
 }
 */
 .chat .header .content.slider{
@@ -265,7 +284,7 @@
 	position: relative;
 	height: calc(100% - 24px);
 	width: 100%;
-	padding: 16px;
+	padding: 8px;
 }
 .chat .header .content.slider h4{
 	margin: 0;
@@ -340,6 +359,7 @@
 .chat .msgs .msg .content{
     word-wrap:break-word;
     margin: 8px 0;
+	font-family: 'Roboto', sans-serif !important;
     white-space: pre-line;
 }
 .chat .msgs .msg .content .emoji{
@@ -412,7 +432,7 @@
 	line-height: 40px;
     font-size: 12px;
     text-align: center;
-	background: url('../img/file.png');
+	background: url('file.png');
 	background-size: 100% 100%;
 }
 
@@ -429,6 +449,9 @@
 .chat .msgs .system{
     margin: 8px 0;
 }
+.chat .msgs .system.dynamic-forms .content{
+	box-sizing: border-box;
+}
 .chat .msgs .system.dynamic-forms{
 	padding: 16px 16px 24px 16px;
 }
@@ -441,7 +464,7 @@
 .chat .msgs .system .content{
 	padding: 16px;
 	background: #ECEFF1;
-	width: 70%;
+	width: 80%;
 	border-radius: 4px;
 	display: block;
 	margin: 0 auto;
@@ -455,6 +478,7 @@
 }
 .chat .msgs .system .content .subtitle{
 	font-size: 12px;
+	margin-top: 12px;
 	color: #455A64;
 	margin-bottom: 0;
 	text-align: center;
@@ -466,7 +490,12 @@
     display: inline-block;
 }
 
+.chat .msgs .system.dynamic-forms input::-webkit-input-placeholder{
+   	color: #BDBDBD;
+
+}
 .chat .msgs .system.dynamic-forms input{
+   	color: #616161;
 	border: 0;
 	box-sizing: border-box;
 	display: block;
@@ -481,6 +510,7 @@
 }
 .chat .msgs .system.dynamic-forms button, .offline button{
 	cursor: pointer;
+    padding: 1px 6px;
 	background: #90A4AE;
 	height: 26px;
     border-radius: 4px;
@@ -736,6 +766,8 @@
 	display: inline-block;
 }
 .invite .avatar img{
+	height: 48px;
+	width: 48px;
 	border-radius: 50%;
 }
 .minimized{
